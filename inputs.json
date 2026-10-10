@@ -1,0 +1,5 @@
+{
+  "required": [
+    "geopotential_500/*.nc"
+  ]
+}

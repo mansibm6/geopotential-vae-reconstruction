@@ -1,0 +1,11 @@
+# Direct dependencies. Resolve in a separate Python 3.11 environment per project.
+# Tested-library lower bounds are not a complete reproducibility/security lock.
+dask[array]
+ipykernel
+jupyterlab
+matplotlib>=3.11.2,<4
+netCDF4
+numpy>=2.4.6,<3
+opencv-python
+tensorflow>=2.21.0,<3
+xarray>=2026.9.0,<2027
